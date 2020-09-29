@@ -58,6 +58,11 @@
     font-weight: 600;
 }
 
+.nav>li>a {
+    padding: 15px 10px;
+}
+
+
 .navbar-default {
 
     padding-bottom: 10px;
@@ -83,8 +88,6 @@
 .navbar-default .navbar-nav>li>a:hover {
     color: #2C75FF;
 }
-
-
 
 .navbar-default .navbar-right {
     padding-top: 15px;
@@ -126,6 +129,7 @@
 
 
 .btn-default.signup {
+    margin-right: 13px;
     border-color: #2672FF;
     background-color: #2672FF;
     color: white;
@@ -150,6 +154,15 @@
     }
 }
 
+.welcome {
+    height: 500px;
+    background-color: #0069ff;
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 @media screen and (min-width: 1024px) {
 
     .menu {
@@ -170,6 +183,10 @@
 
     .navbar-collapse.collapse {
         display: block !important;
+    }
+
+    .welcome {
+        margin-top: 107px;
     }
 
 }
