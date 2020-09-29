@@ -1,3 +1,9 @@
+.menu {
+    height: 40px;
+    background-color: grey;
+    display: none;
+}
+
 .navbar-default {
 
     padding-bottom: 10px;
@@ -19,16 +25,45 @@
     padding-top: 15px;
 }
 
-.menu {
-    height: 40px;
-    background-color: grey;
-    display: none;
+.navbar-default .navbar-left > ul > li {
+
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
+
+    .menu {
+        display: none;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
 
     .menu {
         display: block;
+    }
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important;
     }
 
 }
