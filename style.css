@@ -1,12 +1,67 @@
 .menu {
     height: 40px;
-    background-color: grey;
+    background-color: white;
     display: none;
+    border-bottom: 1px solid rgb(229,232,237);
+}
+
+.leftmenu {
+    float: left;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.menu span {
+    float: left;
+    padding: 6px 8px;
+    background-color: #00D7D2;
+    color: #031B4E;
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.leftmenu a {
+    color: #5F6D8A;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.leftmenu a:hover {
+    text-decoration: none;
+    color: #2C75FF;
+}
+
+.leftmenu a>i {
+    margin-left: 5px;
+    font-size: 9px;
+}
+
+.rightmenu {
+    float: right;
+    margin-top: 10px;
+}
+
+.rightmenu ul li:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #2C75FF;
+}
+
+.rightmenu ul li {
+    display: inline;
+    margin-left: 14px;
+    color: #5F6D8A;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .navbar-default {
 
     padding-bottom: 10px;
+    background-color: white;
 
 }
 
@@ -21,12 +76,59 @@
     padding-top: 7px;
 }
 
+.navbar-left li>a>i {
+    margin-left: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #2C75FF;
+}
+
+
+
 .navbar-default .navbar-right {
     padding-top: 15px;
 }
 
-.navbar-default .navbar-left > ul > li {
+.navbar-default .navbar-nav>li>a {
 
+    color: #122658;
+    font-weight: 600;
+
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle {
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.btn-default {
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-default.signin {
+    border-color: #2672FF;
+    color: #2672FF;
+}
+
+.btn-default.signin:hover {
+    border-color: #2672FF;
+    background-color: #2672FF;
+    color: white;
+    transition: background-color 0.25s linear,border-color 0.25s linear,color 0.25s linear;
+}
+
+
+.btn-default.signup {
+    border-color: #2672FF;
+    background-color: #2672FF;
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +154,10 @@
 
     .menu {
         display: block;
+    }
+
+    .navbar-default {
+        margin-top: 40px;
     }
 
     .navbar-header {
