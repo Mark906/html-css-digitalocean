@@ -148,7 +148,6 @@
 }
 
 .welcome-left {
-    text-align: left;
     max-width: 605px;
     padding-top: 100px;
 
@@ -300,12 +299,21 @@
         display: none;
     }
 
+
     .navbar-collapse.collapse {
         display: block !important;
     }
 
     .welcome {
         margin-top: 107px;
+    }
+
+}
+
+@media screen and (min-width: 1199px) {
+
+    .welcome-left {
+        text-align: left;
     }
 
 }
