@@ -110,12 +110,13 @@
 }
 
 .btn-default {
-    margin-left: 20px;
+
     font-size: 14px;
     font-weight: 600;
 }
 
 .btn-default.signin {
+    margin-right: 20px;
     border-color: #2672FF;
     color: #2672FF;
 }
@@ -135,6 +136,104 @@
     color: white;
 }
 
+.welcome {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0069ff;
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-left {
+
+    max-width: 605px;
+    padding-top: 100px;
+
+}
+
+.welcome-left h1 {
+    font-size: 58px;
+    color: white;
+    font-weight: 600;
+}
+
+.welcome-left p {
+    font-size: 24px;
+    color: white;
+}
+
+.card {
+    width: 350px;
+    height: 470px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.card h5 {
+
+    font-size: 18px;
+    color: #031B4E;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #F3F5F9;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+
+.btn-card {
+
+    border-color: #2672FF;
+    background-color: #2672FF;
+    color: white;
+    margin-left: 40px;
+    width: 270px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 9px;
+
+}
+
+.btn-card:hover {
+    color: #fff;
+    background-color: #1633ff;
+    transition: all 0.3s ease;
+}
+
+.input-group .form-control {
+    margin-bottom: 7px;
+    width: 270px;
+    margin-left: 40px;
+}
+
+.form-control {
+
+    height: 50px;
+    font-size: 12px;
+    border: none;
+    box-shadow: none;
+    border: 1px solid #e9ecef;
+    border-radius: 0px;
+
+}
+
+.form-control:focus {
+
+    border-color: #e9ecef;
+    box-shadow: none;
+
+}
+
+.card .input-group {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #F3F5F9;
+}
+
 @media screen and (min-width: 768px) {
 
     .menu {
@@ -152,15 +251,6 @@
     .navbar-collapse.collapse {
         display: none!important;
     }
-}
-
-.welcome {
-    height: 500px;
-    background-color: #0069ff;
-    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 @media screen and (min-width: 1024px) {
