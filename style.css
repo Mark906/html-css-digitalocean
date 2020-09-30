@@ -144,6 +144,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    text-align: -webkit-center;
 }
 
 .welcome-left {
@@ -185,12 +186,11 @@
 
 }
 
-.btn-card {
+.btn-card-email {
 
     border-color: #2672FF;
     background-color: #2672FF;
     color: white;
-    margin-left: 40px;
     width: 270px;
     height: 60px;
     font-size: 18px;
@@ -198,7 +198,7 @@
 
 }
 
-.btn-card:hover {
+.btn-card-email:hover {
     color: #fff;
     background-color: #1633ff;
     transition: all 0.3s ease;
@@ -232,6 +232,35 @@
     padding-top: 15px;
     padding-bottom: 50px;
     border-bottom: 1px solid #F3F5F9;
+}
+
+.btn-card-google {
+    width: 207px;
+    height: 42px;
+    border-color: #2672FF;
+    color: #2672FF;
+}
+
+.btn-card-google:hover,.btn-card-github:hover {
+    border-color: black;
+    color: black;
+    background-color: white;
+}
+
+.btn-card-github {
+    margin-left: 4px;
+    width: 52px;
+    height: 42px;
+    border-color: #2672FF;
+    color: #2672FF;
+}
+
+.card-bottom {
+    margin-top: 25px;
+}
+
+.welcome-right small {
+    color: white;
 }
 
 @media screen and (min-width: 768px) {
