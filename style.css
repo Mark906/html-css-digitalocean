@@ -154,7 +154,7 @@
 }
 
 .welcome-left h1 {
-    font-size: 58px;
+    font-size: 31px;
     color: white;
     font-weight: 600;
 }
@@ -308,9 +308,13 @@
         margin-top: 107px;
     }
 
+    .welcome-left h1 {
+        font-size: 58px;
+    }
+
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
 
     .welcome-left {
         text-align: left;
