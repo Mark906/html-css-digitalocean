@@ -262,6 +262,49 @@
     color: white;
 }
 
+.business {
+    background-color: #F3F5F9;
+    padding-bottom: 4%;
+}
+
+.business h6 {
+
+    color: #5B6987;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4%;
+
+}
+
+.business p {
+
+    margin-top: 4%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.business p>a {
+    color: #0069FF;
+}
+
+.businesslogo {
+    margin-top: 2%;
+    margin-right: 4%;
+}
+
+.imglogo {
+
+    height: 60px;
+    width: 140px;
+    float: left;
+    margin-left: 38%;
+}
+
+
+
 @media screen and (min-width: 768px) {
 
     .menu {
@@ -310,6 +353,10 @@
 
     .welcome-left h1 {
         font-size: 58px;
+    }
+
+    .correct {
+        padding-left: 27%;
     }
 
 }
