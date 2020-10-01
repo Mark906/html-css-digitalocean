@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .menu {
     height: 40px;
     background-color: white;
@@ -303,7 +307,84 @@
     margin-left: 38%;
 }
 
+#info-title {
+    text-align: center;
+    padding-bottom: 3%;
 
+}
+
+#info-title h2 {
+    font-size: 36px;
+    color: #031b4e;
+    font-weight: bold;
+}
+
+#info-title p {
+    font-size: 20px;
+    color: #5b6987;
+}
+
+.info {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.info h5 {
+    font-size: 18px;
+    color: #031b4e;
+    font-weight: bold;
+}
+
+.info p {
+    font-size: 16px;
+    color: #5b6987;
+}
+
+.info ul {
+    font-size: 16px;
+    list-style: none;
+}
+
+.info ul::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.info ul li {
+    padding-left: 5%;
+    padding-bottom: 5%;
+    display: inline;
+    border-bottom: 2px solid lightgrey;
+    float: left;
+    margin-bottom: 5%;
+}
+
+.info ul li>a {
+    color: #6C769C;
+    font-weight: 600;
+}
+
+.info ul li>a:hover {
+    text-decoration: none;
+}
+
+.description {
+
+    margin-bottom: 4%;
+    text-align: center;
+
+}
+
+.list{
+    display: table;
+    margin: 0 auto;
+}
+
+ul#horizontal-list {
+    width: 360px;
+    padding: 0;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -365,6 +446,20 @@
 
     .welcome-left {
         text-align: left;
+    }
+
+    .description {
+        text-align: left;
+    }
+
+    .info ul li{
+        padding-left: 5%;
+        padding-bottom: 5%;
+        display: block;
+        border: none;
+        border-left: 2px solid lightgrey;
+        float: none;
+        margin-bottom: 0;
     }
 
 }
