@@ -4,6 +4,13 @@ body {
 
 }
 
+section {
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
 .menu {
 
     height: 40px;
@@ -182,8 +189,6 @@ body {
 
 .welcome {
 
-    padding-top: 70px;
-    padding-bottom: 70px;
     background-color: #0069ff;
     background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
     background-repeat: no-repeat;
@@ -335,7 +340,6 @@ body {
 .business {
 
     background-color: #F3F5F9;
-    padding-bottom: 4%;
 
 }
 
@@ -345,7 +349,6 @@ body {
     font-size: 15px;
     font-weight: bold;
     text-align: center;
-    margin-top: 4%;
 
 }
 
@@ -408,12 +411,6 @@ body {
 
 }
 
-.info {
-
-    padding-top: 6%;
-    padding-bottom: 6%;
-
-}
 
 .info h5 {
 
@@ -493,8 +490,6 @@ ul#horizontal-list {
 .control-panel {
 
     background-color: #F3F5F9;
-    padding-top: 30px;
-    padding-bottom: 30px;
 
 }
 
@@ -590,7 +585,6 @@ ul#horizontal-list {
 
 .advantages-title {
 
-    padding-top: 4%;
     text-align: center;
     padding-bottom: 4%;
 
