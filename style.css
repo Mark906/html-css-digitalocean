@@ -63,7 +63,7 @@ body {
 }
 
 .nav>li>a {
-    padding: 15px 10px;
+    padding: 15px 8px;
 }
 
 
@@ -285,9 +285,14 @@ body {
 
     margin-top: 4%;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 
+}
+
+.business p>a:hover {
+    color: #1633ff;
+    text-decoration: none;
 }
 
 .business p>a {
@@ -309,7 +314,7 @@ body {
 
 #info-title {
     text-align: center;
-    padding-bottom: 3%;
+    padding-bottom: 8%;
 
 }
 
@@ -382,7 +387,7 @@ body {
 }
 
 ul#horizontal-list {
-    width: 360px;
+    width: 370px;
     padding: 0;
 }
 
@@ -436,13 +441,15 @@ ul#horizontal-list {
         font-size: 58px;
     }
 
-    .correct {
-        padding-left: 27%;
-    }
+
 
 }
 
 @media screen and (min-width: 1200px) {
+
+    .correct {
+        padding-left: 27%;
+    }
 
     .welcome-left {
         text-align: left;
@@ -452,14 +459,18 @@ ul#horizontal-list {
         text-align: left;
     }
 
-    .info ul li{
+    .info ul li {
         padding-left: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 10%;
         display: block;
         border: none;
         border-left: 2px solid lightgrey;
         float: none;
         margin-bottom: 0;
+    }
+
+    .info ul li:last-child {
+        padding-bottom: 0;
     }
 
 }
