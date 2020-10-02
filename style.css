@@ -1,7 +1,7 @@
 body {
 
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 .menu {
@@ -490,6 +490,99 @@ ul#horizontal-list {
 
 }
 
+.control-panel {
+
+    background-color: #F3F5F9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.img-control-panel {
+
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.img-control-panel img {
+
+    width: 100%;
+
+}
+
+.title-control-panel {
+
+    text-align: center;
+    max-width: 830px;
+    margin: 30px auto;
+
+}
+
+.title-control-panel h1 {
+
+    font-size: 36px;
+    color: #031b4e;
+    font-weight: bold;
+
+}
+
+.title-control-panel p {
+
+    font-size: 20px;
+    color: #5b6987;
+
+}
+
+.img-control-panel::before {
+
+    display: none;
+
+}
+
+.img-control-panel::after {
+
+    display: none;
+
+}
+
+.img-control-panel-description p {
+
+    padding-top: 3%;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: bold;
+    color: #5E7499;
+
+}
+
+.img-control-panel-scroll {
+
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+.scrollbutton {
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    padding: 3px;
+    cursor: pointer;
+    margin: 0 3px;
+    background-color: transparent;
+    border: 2px solid #0069ff;
+    display: inline;
+}
+
+.scrollbutton:first-child {
+    background-color: #0069ff;
+}
+
+
 @media screen and (min-width: 768px) {
 
     .menu {
@@ -506,6 +599,12 @@ ul#horizontal-list {
 
     .navbar-collapse.collapse {
         display: none!important;
+    }
+
+    .img-control-panel-description p {
+
+        font-size: 16px;
+
     }
 
 }
@@ -539,6 +638,38 @@ ul#horizontal-list {
 
     .welcome-left h1 {
         font-size: 58px;
+    }
+
+
+
+    .img-control-panel::before {
+
+        display: block;
+        content: '\f060';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        right: 100%;
+        font-size: 20px;
+        padding-right: 15px;
+        color: #5E7499;
+
+    }
+
+    .img-control-panel::after {
+
+        display: block;
+        content: '\f061';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: bold;
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        font-size: 20px;
+        padding-left: 15px;
+        color: #5E7499;
+
     }
 
 }
