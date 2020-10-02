@@ -1,21 +1,28 @@
 body {
+
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .menu {
+
     height: 40px;
     background-color: white;
     display: none;
     border-bottom: 1px solid rgb(229,232,237);
+
 }
 
 .leftmenu {
+
     float: left;
     margin-top: 7px;
     margin-left: 10px;
+
 }
 
 .menu span {
+
     float: left;
     padding: 6px 8px;
     background-color: #00D7D2;
@@ -25,45 +32,60 @@ body {
     font-weight: 600;
     margin-top: 6px;
     margin-left: 10px;
+
 }
 
 .leftmenu a {
+
     color: #5F6D8A;
     font-size: 12px;
     font-weight: 600;
+
 }
 
 .leftmenu a:hover {
+
     text-decoration: none;
     color: #2C75FF;
+
 }
 
 .leftmenu a>i {
+
     margin-left: 5px;
     font-size: 9px;
+
 }
 
 .rightmenu {
+
     float: right;
     margin-top: 10px;
+
 }
 
 .rightmenu ul li:hover {
+
     cursor: pointer;
     text-decoration: none;
     color: #2C75FF;
+
 }
 
 .rightmenu ul li {
+
     display: inline;
     margin-left: 14px;
     color: #5F6D8A;
     font-size: 12px;
     font-weight: 600;
+
 }
 
 .nav>li>a {
+
     padding: 15px 8px;
+
 }
 
 
@@ -82,19 +104,27 @@ body {
 }
 
 .navbar-default .navbar-left {
+
     padding-top: 7px;
+
 }
 
 .navbar-left li>a>i {
+
     margin-left: 10px;
+
 }
 
 .navbar-default .navbar-nav>li>a:hover {
+
     color: #2C75FF;
+
 }
 
 .navbar-default .navbar-right {
+
     padding-top: 15px;
+
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -105,12 +135,16 @@ body {
 }
 
 .navbar-default .navbar-toggle {
+
     border: none;
+
 }
 
 .navbar-toggle {
+
     padding: 0px 10px;
     margin-top: 20px;
+
 }
 
 .btn-default {
@@ -120,27 +154,34 @@ body {
 }
 
 .btn-default.signin {
+
     margin-right: 20px;
     border-color: #2672FF;
     color: #2672FF;
+
 }
 
 .btn-default.signin:hover {
+
     border-color: #2672FF;
     background-color: #2672FF;
     color: white;
     transition: background-color 0.25s linear,border-color 0.25s linear,color 0.25s linear;
+
 }
 
 
 .btn-default.signup {
+
     margin-right: 13px;
     border-color: #2672FF;
     background-color: #2672FF;
     color: white;
+
 }
 
 .welcome {
+
     padding-top: 70px;
     padding-bottom: 70px;
     background-color: #0069ff;
@@ -149,31 +190,40 @@ body {
     background-size: cover;
     background-position: center;
     text-align: -webkit-center;
+
 }
 
 .welcome-left {
+
     max-width: 605px;
     padding-top: 100px;
+
 
 }
 
 .welcome-left h1 {
+
     font-size: 31px;
     color: white;
     font-weight: 600;
+
 }
 
 .welcome-left p {
+
     font-size: 24px;
     color: white;
+
 }
 
 .card {
+
     width: 350px;
     height: 470px;
     background-color: white;
     border-radius: 5px;
     font-weight: 600;
+
 }
 
 .card h5 {
@@ -202,15 +252,19 @@ body {
 }
 
 .btn-card-email:hover {
+
     color: #fff;
     background-color: #1633ff;
     transition: all 0.3s ease;
+
 }
 
 .input-group .form-control {
+
     margin-bottom: 7px;
     width: 270px;
     margin-left: 40px;
+
 }
 
 .form-control {
@@ -232,43 +286,57 @@ body {
 }
 
 .card .input-group {
+
     padding-top: 15px;
     padding-bottom: 50px;
     border-bottom: 1px solid #F3F5F9;
+
 }
 
 .btn-card-google {
+
     width: 207px;
     height: 42px;
     border-color: #2672FF;
     color: #2672FF;
+
 }
 
 .btn-card-google:hover,.btn-card-github:hover {
+
     border-color: black;
     color: black;
     background-color: white;
+
 }
 
 .btn-card-github {
+
     margin-left: 4px;
     width: 52px;
     height: 42px;
     border-color: #2672FF;
     color: #2672FF;
+
 }
 
 .card-bottom {
+
     margin-top: 25px;
+
 }
 
 .welcome-right small {
+
     color: white;
+
 }
 
 .business {
+
     background-color: #F3F5F9;
     padding-bottom: 4%;
+
 }
 
 .business h6 {
@@ -291,17 +359,23 @@ body {
 }
 
 .business p>a:hover {
+
     color: #1633ff;
     text-decoration: none;
+
 }
 
 .business p>a {
+
     color: #0069FF;
+
 }
 
 .businesslogo {
+
     margin-top: 2%;
     margin-right: 4%;
+
 }
 
 .imglogo {
@@ -313,65 +387,86 @@ body {
 }
 
 #info-title {
+
     text-align: center;
     padding-bottom: 8%;
 
 }
 
 #info-title h2 {
+
     font-size: 36px;
     color: #031b4e;
     font-weight: bold;
+
 }
 
 #info-title p {
+
     font-size: 20px;
     color: #5b6987;
+
 }
 
 .info {
+
     padding-top: 6%;
     padding-bottom: 6%;
+
 }
 
 .info h5 {
+
     font-size: 18px;
     color: #031b4e;
     font-weight: bold;
+
 }
 
 .info p {
+
     font-size: 16px;
     color: #5b6987;
+
 }
 
 .info ul {
+
     font-size: 16px;
     list-style: none;
+
 }
 
-.info ul::after{
+.info ul::after {
+
     content: '';
     display: table;
     clear: both;
+
 }
 
 .info ul li {
+
     padding-left: 5%;
     padding-bottom: 5%;
     display: inline;
     border-bottom: 2px solid lightgrey;
     float: left;
     margin-bottom: 5%;
+
 }
 
 .info ul li>a {
+
     color: #6C769C;
     font-weight: 600;
+
 }
 
 .info ul li>a:hover {
+
     text-decoration: none;
+
 }
 
 .description {
@@ -381,14 +476,18 @@ body {
 
 }
 
-.list{
+.list {
+
     display: table;
     margin: 0 auto;
+
 }
 
 ul#horizontal-list {
+
     width: 370px;
     padding: 0;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -408,6 +507,7 @@ ul#horizontal-list {
     .navbar-collapse.collapse {
         display: none!important;
     }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -440,8 +540,6 @@ ul#horizontal-list {
     .welcome-left h1 {
         font-size: 58px;
     }
-
-
 
 }
 
