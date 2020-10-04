@@ -633,6 +633,71 @@ ul#horizontal-list {
 
 }
 
+.data-centers {
+    background-color: #031b4e;
+    background-image: url("https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.data-centers-title {
+    max-width: 770px;
+    margin: 30px auto;
+}
+
+.data-centers-title h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.data-centers-title p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.data-centers-list {
+    text-align: -webkit-center;
+}
+
+.data-centers-list ul li {
+    width: 415px;
+    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+    margin-top: 10px;
+}
+
+.data-centers-list p:first-child {
+    display: inline-block;
+    width: 90px;
+    color: white;
+    font-weight: bold;
+}
+
+.data-centers-list p:nth-child(2) {
+    display: inline-block;
+    width: 220px;
+    color: #9CA2B8;
+}
+
+.data-centers-list li a {
+    color: #00D7D2;
+    font-weight: bold;
+}
+
+.data-centers-list li a>i {
+    margin-left: 1%;
+}
+
+.data-centers-list a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+
 @media screen and (min-width: 768px) {
 
     .menu {
