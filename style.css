@@ -660,6 +660,16 @@ ul#horizontal-list {
     padding-bottom: 5%;
 }
 
+.data-centers-title p>a {
+    color: #0069ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.data-centers-title p>a:hover {
+    color: #1633ff;
+}
+
 .data-centers-list {
     text-align: -webkit-center;
 }
